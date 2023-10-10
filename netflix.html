@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Netflix</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href='https://css.gg/add.css' rel='stylesheet'>
+        <link rel="stylesheet" href="./netflix.css">
+    </head>
+    <body>
+
+        <div class="con">
+
+        <div class="con1" style="display: flex;">
+
+               <div class="con3"
+               ><img src="data:image/png;base64,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" alt=""></div>
+               <div class="con4">
+                   <button class="english">English</button>
+                   <button class="signin">Sign in</button>
+               </div>
+        </div>
+
+         <div class="con5">
+             <h1 class="uni">Unlimited movies, TV</h1>
+             <h1 class="show">shows and more.</h1>
+             <h1 class="watch">Watch anywhere. Cancel anytime.</h1>
+             <h1 class="read">Ready to watch? Enter your email to create or restart your membership.</h1>
+             <input type="text" class="email" placeholder="Email">
+             <button class="btn1">Get Started ></button>
+            </div> 
+
+        </div>
+
+        <div class="con6">
+            <div class="con7">
+                <h1 class="enjoy">Enjoy on your TV.</h1>
+                <h1 class="watch1">Watch on smart TVs, PlayStation, Xbox,</h1>
+                <h1 class="chrome">Chromecast, Apple TV, Blu-ray players and</h1>
+                <h1 class="more">more.</h1>
+            </div>
+            <div class="con8">
+                <img src="net.png" alt="" class="img1">
+            </div>
+        </div>
+
+        <div class="con9">
+
+            <div class="con10">
+             <img src="chill.png" alt="" class="img1">
+            </div>
+            <div class="con11">
+             <h1 class="enjoy">Create profiles for children.</h1>
+             <h1 class="chrome">Send children on adventures with their</h1>
+             <h1 class="chrome">favourite characters in a space made just for</h1>
+             <h1 class="chrome">them—free with your membership.</h1>
+            </div>
+        </div>
+
+        <div class="con12">
+            <div class="con13">
+              <h1 class="enjoy">Watch everywhere.</h1>
+              <h1 class="chrome">Stream unlimited movies and TV shows on</h1>
+              <h1 class="chrome">your phone, tablet, laptop, and TV.</h1>
+            </div>
+            <div class="con14">
+             <img src="flix.png" alt="" class="img1">
+            </div>
+        </div>
+
+        <div class="con15">
+            <div class="con16"><h1 class="question">Frequently Asked Questions</h1></div>
+            <div class="con17"><h1 class="net">What is Netflix?</h1></div>
+            <div class="con18"><h1 class="net">How much does Netflix cost?</h1><i class="gg-add" style="margin-left: 277px;margin-top: 28px;color: white;"></i></div>
+            <div class="con19"><h1 class="net">Where can I watch?</h1><i class="gg-add" style="margin-left: 399px;margin-top: 28px;color: white;"></i></div>
+            <div class="con20"><h1 class="net">How do I cancel?</h1><i class="gg-add" style="margin-left: 438px;margin-top: 28px;color: white;"></i></div>
+            <div class="con21"><h1 class="net">What can I watch on Netflix?</h1><i class="gg-add" style="margin-left: 273px;margin-top: 28px;color: white;"></i></div>
+            <div class="con22"><h1 class="net">Is Netflix good for kids?</h1><i class="gg-add" style="margin-left: 350px;margin-top: 28px;color: white;"></i></div>
+            <h1 class="rtw">Ready to watch? Enter your email to create or restart your membership.</h1>
+            <input type="text" class="email" placeholder="Email">
+            <button class="btn1">Get Started ></button>
+        </div>
+        <div class="con23">
+            <div class="con24">
+                <h1 class="new">Questions? Call 000-800-040-1843</h1>
+            </div>
+            <div class="con25">
+            <ul>
+                <li class="this">FAQ</li>
+                <li class="this">Investor Relations</li>
+                <li class="this">Privacy</li>
+                <li class="this">Speed Test</li>
+            </ul>
+            <ul>
+                <li class="this">Help Centre</li>
+                <li class="this">Jobs</li>
+                <li class="this">Cookie Preferences</li>
+                <li class="this">Legal Notice</li>
+            </ul>
+            <ul>
+                <li class="this">Account</li>
+                <li class="this">Ways to Watch</li>
+                <li class="this">Corporate Information</li>
+                <li class="this">Only on Netflix</li>
+            </ul>
+            <ul>
+                <li class="this">Media Centre</li>
+                <li class="this">Terms of Use</li>
+                <li class="this">Contact Us</li>
+                <li class="this"></li>
+            </ul>
+        </div>
+        <button class="eng">English</button>
+        <h1 class="new2">Netflix India</h1>
+        </div>
+        <script src="" async defer></script>
+    </body>
+</html>
